@@ -1,0 +1,19 @@
+.searchbox{
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .7);
+}
+
+.searchbox input{
+    width: 100%;
+    padding: .85rem;
+    font-size: 1.15rem;
+    text-align: center;
+    background: rgba(255, 255, 255, .5);
+    outline: none;
+    border: none;
+    transition: background .5s;
+}
+
+.searchbox input:focus{
+    background: rgba(255, 255, 255, .8);
+}
