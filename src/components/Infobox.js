@@ -5,7 +5,7 @@ function Infobox (props){
         return(
             <div className={classes.intro}>
                 <h1>
-                    HI, THERE!<br/>
+                    HI THERE!<br/>
                     Find out your city's temperature.
                 </h1>
             </div>
@@ -14,7 +14,7 @@ function Infobox (props){
         return(
             <div className={classes.intro}>
                 <h1>
-                    Failed to find the city, try it again!
+                    Unable to find the city, try it again!
                 </h1>
             </div>
         );

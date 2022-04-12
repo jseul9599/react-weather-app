@@ -23,7 +23,7 @@ function App() {
     let tDate = date.getDate();
     let tDay = days[date.getDay()];
 
-    return `${tDay}, ${tDate} ${tMonth} ${tYear}`
+    return `${tDay} ${tDate} ${tMonth} ${tYear}`
   }
 
   function typeCity(e){

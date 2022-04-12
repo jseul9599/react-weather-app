@@ -5,7 +5,7 @@ function Searchbox (props){
         <div className={classes.searchbox}>
             <input 
                 type="text"
-                placeholder="Type in the name of city"
+                placeholder="Type in the name of the city"
                 onChange={props.onChange}
                 onKeyPress={props.onKeyPress}
                 value={props.inputValue}
